@@ -73,7 +73,7 @@ VueThink是基于MIT协议的开源框架，它完全免费。你可以免费下
 
 这里所说的搭建其实就是把server框架放入WEB运行环境，并使用80端口。
 
-导入服务端根文件夹数据库文件install.sql，并修改config/database.php配置文件。
+导入服务端根文件夹数据库文件install.sql，(数据库内用户表账号admin，密码123456)并修改config/database.php配置文件。
 
 * PHP >= 5.4.0
 * PDO PHP Extension
@@ -101,10 +101,6 @@ location / {
 
 ### 前端搭建
 ```
-前端运行只需要执行以下两个命令行
-npm install
-npm run dev
-
-P.S 在前端服务启动之前，要先启动后端的服务，不然只是一个脚手架
+请参考frontEnd里的README文件
 ```
 
